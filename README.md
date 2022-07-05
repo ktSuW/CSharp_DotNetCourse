@@ -71,47 +71,47 @@
 ## Section - 4
 
 - .net components:
-  - Base class libraries : write 
-  - CLR - common language runtime : run 
-- Base class libraries 
-  - They are building blocks of .net 
+  - Base class libraries : write
+  - CLR - common language runtime : run
+- Base class libraries
+  - They are building blocks of .net
   - They are similar to header files in C & C++
-  - They are also called as namespaces 
+  - They are also called as namespaces
   - BCL or Framework class library (FCL) : They are in two forms:
     - .exe - executable file that can be run directly. It has entry point , i.e., static void Main()
-    - dll - dynamic link library - supportive file , no entry point 
-      - This is for reusability 
-- Common language runtime : without this, you cannot run the code. CLR provides a runtime environment to run the program. The sub-components are : 
+    - dll - dynamic link library - supportive file , no entry point
+      - This is for reusability
+- Common language runtime : without this, you cannot run the code. CLR provides a runtime environment to run the program. The sub-components are :
   - CLS - common language specification : write in one programming language and execute in another programming langauge (e.g. C# -> )
-  - CTS - common type system or datatype system 
+  - CTS - common type system or datatype system
     - Value type -- int a = 10; compile time -- stack
     - Reference type -- int b = a; runtime ---- heap
-  - GC - garbage collector 
+  - GC - garbage collector
     - Provides automatic memory management , allocate and de-allocate memory
     - Can be divided into three generations:
       - generation 0 - newly created objects must be stored in gen 0 (Garbage collector rule). Idled objects are flushed out to the gen 1.
-      - generation 1 - if there is no more space in the gen 0 and want to create new object, there is where collection means method comes in. 
+      - generation 1 - if there is no more space in the gen 0 and want to create new object, there is where collection means method comes in.
       - generation 2
       - memory space are gen 0 < gen 2 < gen 3 . Therefore, gen 3 has largest memory
       - When all gens are full, automatically, memory will be expanded.
-    - It also have Optimised engine. It performs a mechanism called collection means method to find out objects are useful or not. 
+    - It also have Optimised engine. It performs a mechanism called collection means method to find out objects are useful or not.
     - It divides objects into two categories :
       - Objects in use
-      - Idled objects (Garbage) - should be destoryed. Automatic memory management 
-      - Destructor 
-    - <img src="img/gc_collector.jpg" width = 600>
-      -
-  - JIT - Just in time compiler 
-    - Used to compile MSL code into native code 
-- C# .net 
-  - # sharp - musical note 
-  - C# net = c++, VB6.0 + Java + additional features 
-  - functional oriented 
-  - object oriented 
-  - Case sensitive 
+      - Idled objects (Garbage) - should be destoryed. Automatic memory management
+      - Destructor
+    - ## <img src="img/gc_collector.jpg" width = 600>
+  - JIT - Just in time compiler
+    - Used to compile MSL code into native code
+- C# .net
+  - sharp - musical note
+  - C# net = c++, VB6.0 + Java + additional features
+  - functional oriented
+  - object oriented
+  - Case sensitive
+
 ## Section - 5
 
-- Console app 
+- Console app
 
 ## Section - 6
 
