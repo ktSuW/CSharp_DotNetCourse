@@ -111,13 +111,39 @@
 
 ## Section - 5
 
-- Console app
+- Console app - Stand alone or desktop application 
+- CUI - command user interface 
+- In console app, console is a predefined class which is used to work with input and output 
+  - console class present in system namespace 
+  - system namespace is a library 
+- Methods of console class 
+  - Output methods
+    - Write() - is used to display output statements within the same line.
+    - WriteLine() - display output statements line by line 
+  - Input methods
+    - Read() - read user input - character by character - ASCII values - therefore, return type is int.
+    - ReadLine() - read user input - read all characters at once. Therefore, return type is string.
+- How to accept string value at runtime 
+- Type casting 
+  - value you accept at runtime is string data type. Therefore, you need to typecast it 
+  - Convert from string to integer : two methods
+    - convert.ToInt();
+    - int.Parse(); => null to int convertion will raise an error - System.ArgumentNullException: 'Value cannot be null.
+Parameter name: String'
+  - How about float?
+
+      ```
+            Console.WriteLine(Convert.ToInt32(s));
+            Console.WriteLine(Convert.ToInt64(s));
+            Console.WriteLine(Convert.ToInt16(s));
+      ```
+    -
 
 ## Section - 6
 
 ## Section - 7
 
-## Section - 8
+
 
   </details>
 
