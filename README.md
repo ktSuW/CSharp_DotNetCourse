@@ -151,17 +151,83 @@ Parameter name: String'
 
 <details>
   <summary> Week - 2 </summary>
-  ## Section - 1
 
+## Section - 1
+- Operator in C#
+  - 3 + 4 = 7 
+  - 3 and 4 are operands
+  - + and = are operators 
+- Operator types 
+  - Arithmetic : +, -, /, %, * 
+  - Relational : Returns boolean property and true or false < > <= >= == , !=
+  - Assignment : =, +=, -=, /=, *= , 
+  - Logical : and, or , not 
 ## Section - 2
-
+- Array is a collection of similar data type elements
+- types of arrays
+  - physical size : single or 2D
+  - Nature of physical size : static or dynamic (resize)
+  - Memory size : Normal array (64kb), huge > 64kb
+- Special type : Jagged array 
 ## Section - 3
+
+- SQL
+- Database is a collection of information.
+- Data - raw inputs - sdfsfsdfjslkjkljwoperwueitjkalnm
+- information - processed data or well-organised data 
+- Tables
+  - table - entity 
+  - rows --- record or tuple
+  - columns --- field or attribute 
+
+    ```
+        id    name    address       salary
+        0     sam     123 heaven    1000
+        1     sally   123 earch     400
+    ```
+  - Table name or column name convention e.g. employee_details , emp_address
+    - cannot start with digit 
+  - What is SQL server?
+  - Types of Databases
+    - local = MS access, Dbase, Foxpro 
+    - remote = sql server, Oracle, mysql, postgres
+    - internet (online) - OLAP, OLTP processing 
+      - Online analytical processing
+      - Online transaction processing
+  - One software is required to managed these databases , it is DBMS.
+    - local => DBMS
+    - remote => Relational database management system
+    - internet => ORDBMS
+  - SQL server is a relational database management system which is used to manage and access the data from database.
+  - SQL server developer 
+  - SQL server database administrator 
+  - Type of installation
+    - Windows Authentication
+    - Server Type => Database engine 
+  - System Databases
+    - master - admin
+    - model is the template. User defined database 
+    - msdb - has complete job history
+      - what user does what
+    - tempdb - it can temporarily store, function, trigger
+
+- SQL commandset 
+  - DDL - data definition language 
+    - CREATE, ALTER, DROP
+  - DML - data manipulation language 
+    - INSERT, UPDATE, DELETE 
+  - DCL - data control language 
+    - grant, revoke => permission
+  - TCL - transactional control language command 
+    - ROLLBACK, COMMIT, SAVEPOINT 
+  - DQL - data query language - select 
+
+
+  - Services.msc
 
 ## Section - 4
 
-## Section - 5
 
-## Section - 6
 
 </details>
 
